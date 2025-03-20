@@ -60,7 +60,6 @@
             label2.Size = new Size(117, 15);
             label2.TabIndex = 1;
             label2.Text = "Número Documento";
-            label2.Click += label2_Click;
             // 
             // label3
             // 
@@ -70,7 +69,6 @@
             label3.Size = new Size(90, 15);
             label3.TabIndex = 2;
             label3.Text = "Ingresos Totales";
-            label3.Click += label3_Click;
             // 
             // label4
             // 
@@ -103,42 +101,42 @@
             // 
             tbnumeroDoc.Location = new Point(157, 72);
             tbnumeroDoc.Name = "tbnumeroDoc";
-            tbnumeroDoc.Size = new Size(121, 23);
+            tbnumeroDoc.Size = new Size(149, 23);
             tbnumeroDoc.TabIndex = 7;
             // 
             // tbingresosTotales
             // 
             tbingresosTotales.Location = new Point(157, 109);
             tbingresosTotales.Name = "tbingresosTotales";
-            tbingresosTotales.Size = new Size(121, 23);
+            tbingresosTotales.Size = new Size(149, 23);
             tbingresosTotales.TabIndex = 8;
             // 
             // tbegresosTotales
             // 
             tbegresosTotales.Location = new Point(157, 147);
             tbegresosTotales.Name = "tbegresosTotales";
-            tbegresosTotales.Size = new Size(121, 23);
+            tbegresosTotales.Size = new Size(149, 23);
             tbegresosTotales.TabIndex = 9;
             // 
             // tbplazo
             // 
             tbplazo.Location = new Point(157, 236);
             tbplazo.Name = "tbplazo";
-            tbplazo.Size = new Size(121, 23);
+            tbplazo.Size = new Size(149, 23);
             tbplazo.TabIndex = 10;
             // 
             // tbmonto
             // 
             tbmonto.Location = new Point(157, 191);
             tbmonto.Name = "tbmonto";
-            tbmonto.Size = new Size(121, 23);
+            tbmonto.Size = new Size(149, 23);
             tbmonto.TabIndex = 11;
             // 
             // btnVerificar
             // 
-            btnVerificar.Location = new Point(78, 275);
+            btnVerificar.Location = new Point(34, 275);
             btnVerificar.Name = "btnVerificar";
-            btnVerificar.Size = new Size(170, 23);
+            btnVerificar.Size = new Size(272, 23);
             btnVerificar.TabIndex = 12;
             btnVerificar.Text = "Aprobacion Credito";
             btnVerificar.UseVisualStyleBackColor = true;
@@ -149,7 +147,7 @@
             cbtipoDoc.FormattingEnabled = true;
             cbtipoDoc.Location = new Point(157, 27);
             cbtipoDoc.Name = "cbtipoDoc";
-            cbtipoDoc.Size = new Size(121, 23);
+            cbtipoDoc.Size = new Size(149, 23);
             cbtipoDoc.TabIndex = 13;
             // 
             // Form1
