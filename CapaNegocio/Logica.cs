@@ -22,12 +22,12 @@
             if (balanza <= 0)
                 return "Negado";
             
-
-            float relacionCreditoBalanza = (montoSolicitado / plazoSolicitado) / balanza;
+            
+            float relacionCreditoBalanza = ((float) montoSolicitado / plazoSolicitado) / balanza;
             if (relacionCreditoBalanza >= 0.95f)
                 return "Negado";
-            
-            int puntaje = fuenteDeDatos.consultarPuntaje(tipoDocumento, nroDoc);
+            Console.WriteLine(relacionCreditoBalanza);
+            int puntaje = fuenteDeDatos.consultarPuntaje(tipoDocumento, numeroDocumento);
 
             if (relacionCreditoBalanza >= 0.7f) // Entre .7 y .95
                 return puntaje >= 800 ? "Aprobado" : "Negado";

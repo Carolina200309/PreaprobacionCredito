@@ -1,13 +1,13 @@
 ﻿namespace CapaNegocio
 {
-    public class SolicitudDTO
+    public class PuntajeDTO
     {
-        public SolicitudDTO()
+        public PuntajeDTO()
         {
 
         }
 
-        public SolicitudDTO(string tipoDocumento, int numeroDocumento, int puntaje)
+        public PuntajeDTO(string tipoDocumento, int numeroDocumento, int puntaje)
         {
             this.tipoDocumento = tipoDocumento;
             this.numeroDocumento = numeroDocumento;

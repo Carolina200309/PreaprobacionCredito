@@ -17,8 +17,8 @@ namespace CapaPresentacion
             logica = new CapaNegocio.Logica( new ConexionSQLServer());
 
             // Agregar los tipos de documento al ComboBox
-            cbtipoDoc.Items.Add("Cédula de ciudadanía");
-            cbtipoDoc.Items.Add("Tarjeta de identidad");
+            cbtipoDoc.Items.Add("CC");
+            cbtipoDoc.Items.Add("TI");
             cbtipoDoc.Items.Add("Cédula de extranjería");
             cbtipoDoc.Items.Add("Pasaporte");
 
